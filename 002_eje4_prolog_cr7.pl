@@ -1,12 +1,15 @@
 %%%% EJERCICIO 4
-%% El de cristiano
+%% Escribir un programa lógico que permita saber si Cr7 marca dada la siguiente información.
+
 % Apartado 8
 se_juega(sabado). %el partido es en sabado
+
 %Apartado 7 
 hoy(martes). %Hoy es martes
 
-%Apartado 6
-%Vespertino
+%Apartado 6 --> Hay entrenamiento vespertino los dias jueves y los dias martes
+
+%Vespertino 
 entrenamiento(vespertino):-
 	hoy(jueves).
 
@@ -34,9 +37,9 @@ para(casillas):-
 	se_juega(domingo).
 
 %Aprt 3
-
+%Cr7 Es feliz cuando hay entrenamiento vespertino o cuando Marcelo es su amigo.
 es_feliz(cr7) :-
-	entrenamiento(jueves).
+	entrenamiento(vespertino).
 
 es_feliz(cr7):-
 	amigo(cr7,marcelo).

@@ -23,11 +23,14 @@ eliminar a quién:
 
 
 Ejercicio 4 Escribir un programa lógico que permita saber si CR7 marca dada la siguiente información:
-• Si CR7 marca y Casillas para, entonces el R. Madrid gana.
-• CR7 marca si es feliz o si el partido es en domingo.
-• CR7 es feliz cuando hay entrenamiento vespertino o cuando Marcelo es su amigo.
-• Casillas para cuando el partido es en sábado o cuando el partido es en domingo.
-• Marcelo es amigo de CR7 si Casillas para y el entrenamiento es matutino.
-• Hay entrenamiento vespertino los martes y jueves; y entrenamiento matutino los lunes y miércoles
-• Hoy es martes.
-• El partido es en sábado
+
+1. Si CR7 marca y Casillas para, entonces el R. Madrid gana.
+2. CR7 marca si es feliz o si el partido es en domingo.
+3. CR7 es feliz cuando hay entrenamiento vespertino o cuando Marcelo es su amigo.
+4.  Casillas para cuando el partido es en sábado o cuando el partido es en domingo.
+5. Marcelo es amigo de CR7 si Casillas para y el entrenamiento es matutino.
+6. Hay entrenamiento vespertino los martes y jueves; y entrenamiento matutino los lunes y miércoles
+7. Hoy es martes.
+8. El partido es en sábado
+
+--> marca(CR7). , La Respuesta es : "Yes"
